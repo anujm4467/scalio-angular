@@ -2,7 +2,7 @@ import { BehaviorSubject } from 'rxjs';
 
 import { Injectable } from '@angular/core';
 
-import { UserProfile } from '../../../../../shared/models';
+import { UserProfile } from '../../../shared/models';
 import { AuthService } from './auth.service';
 
 @Injectable()
@@ -25,5 +25,5 @@ export class AppService {
     return this.authService.loginChecked;
   }
 
-  constructor(public authService: AuthService) {}
+  constructor(public authService: AuthService) { }
 }
