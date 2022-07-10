@@ -4,7 +4,7 @@ import { map, tap } from 'rxjs/operators';
 
 import { Injectable } from '@angular/core';
 
-import { LoginResponse, UserProfile } from '../../../../../shared/models';
+import { LoginResponse, UserProfile } from '../../../shared/models';
 import { ApiService } from './api.service';
 
 @Injectable()

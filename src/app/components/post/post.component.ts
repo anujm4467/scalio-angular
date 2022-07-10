@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { ApiService } from '@services';
 import { Subject, } from 'rxjs';
-import { Post } from '../../../../../shared/models';
+import { Post } from '../../../shared/models';
 
 @Component({
   selector: 'app-post',

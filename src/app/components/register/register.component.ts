@@ -3,7 +3,7 @@ import { ToastrService } from 'ngx-toastr';
 import { Component } from '@angular/core';
 import { Router } from '@angular/router';
 
-import { UserProfileModel } from '../../../../../shared/models/user-profile.model';
+import { UserProfileModel } from '../../../shared/models/user-profile.model';
 import { ApiService } from '../../core/services/api.service';
 
 @Component({
@@ -19,7 +19,7 @@ export class RegisterComponent {
     private apiService: ApiService,
     private toastyService: ToastrService,
     private router: Router
-  ) {}
+  ) { }
 
   onFormValidChange(isValid: boolean): void {
     this.isFormValid = isValid;
